@@ -4,6 +4,6 @@ metadata:
   name: apache-manager
   namespace: apache
 rules:
-  - apiGroups: ["*"] #"apps", "rbac.authorization.k8s.io", "batch"]
-    resources: ["*"] #"pod", "deployment", "service"]
-    verbs: ["*"] #"get", "delete", "apply", "watch", "create", "patch"]
+  - apiGroups: [""] #"apps", "rbac.authorization.k8s.io", "batch"]
+    resources: ["pod"] #"pod", "deployment", "service"]
+    verbs: ["get"] #"get", "delete", "apply", "watch", "create", "patch"]
