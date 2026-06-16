@@ -5,5 +5,5 @@ metadata:
   namespace: apache
 rules:
   - apiGroups: [""] #"apps", "rbac.authorization.k8s.io", "batch"]
-    resources: ["pod"] #"pod", "deployment", "service"]
+    resources: ["pods"] #"pod", "deployment", "service"]
     verbs: ["get"] #"get", "delete", "apply", "watch", "create", "patch"]
